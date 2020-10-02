@@ -1,7 +1,7 @@
 {
   "name": "aws-spa",
   "description": "AWS CDK tool for deploying SPA to S3",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "bin": {
     "aws-spa": "bin/aws-spa.js"
   },
