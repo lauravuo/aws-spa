@@ -1,11 +1,15 @@
 {
   "name": "aws-spa",
-  "version": "0.1.0",
+  "description": "AWS CDK tool for deploying SPA to S3",
+  "version": "0.1.1",
   "bin": {
     "aws-spa": "bin/aws-spa.js"
   },
   "scripts": {
     "build": "tsc",
+    "docker:build": "docker build -t aws-spa .",
+    "docker:push": "npm run docker:build && ./tools/push.sh",
+    "docker:run": "npm run docker:build && ./tools/run-image.sh",
     "watch": "tsc -w",
     "test": "jest",
     "test:update": "jest --updateSnapshot",

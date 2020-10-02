@@ -9,6 +9,7 @@ test("Default Stack", () => {
     domainName: "example.com",
     siteSubDomain: "",
   });
+
   // THEN
   expect(SynthUtils.toCloudFormation(stack)).toMatchSnapshot();
 });
