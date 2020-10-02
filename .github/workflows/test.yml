@@ -17,3 +17,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
       - run: npm test
+        env:
+          CDK_DEFAULT_REGION: region
+          CDK_DEFAULT_ACCOUNT: 123456789012
