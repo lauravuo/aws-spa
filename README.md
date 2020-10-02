@@ -57,9 +57,6 @@ npm install
 cdk bootstrap
 
 # deploy CDK
-# TODO: pass domain name as argument
-# TODO: set creating CI user as optional
-# TODO: example how to sync files to S3
 cdk deploy
 ```
 
