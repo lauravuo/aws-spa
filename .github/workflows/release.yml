@@ -1,7 +1,11 @@
 name: release
-push:
-  branches:
-    - master
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - package.json
+      - package-lock.json
 jobs:
   release:
     runs-on: ubuntu-latest
