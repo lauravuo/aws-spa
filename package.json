@@ -33,7 +33,7 @@
     "@aws-cdk/aws-route53-targets": "^1.65.0",
     "@aws-cdk/aws-s3": "^1.65.0",
     "@aws-cdk/core": "^1.65.0",
-    "aws-sdk": "^2.765.0",
+    "aws-sdk": "^2.814.0",
     "source-map-support": "^0.5.16"
   },
   "license": "Apache-2.0",
